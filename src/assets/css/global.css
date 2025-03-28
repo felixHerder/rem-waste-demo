@@ -1,0 +1,40 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background: var(--color-body-bg);
+  min-height: 100vh;
+  letter-spacing: -0.02rem;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  flex-grow: 1;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: var(--spacing-lg) var(--spacing-md);
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 768px) {
+    padding: var(--spacing-xl) var(--spacing-lg);
+  }
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}

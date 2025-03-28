@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  background: var(--color-subdued-bg);
+  color: var(--color-text-on-primary);
+  height: 3rem;
+  border-radius: var(--border-radius-md);
+  gap: var(--spacing-md);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.containerSelected {
+  background: var(--color-accent-primary);
+  font-weight: 600;
+  font-size: 1.125rem;
+}
